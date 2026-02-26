@@ -1,0 +1,84 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "total_scenarios": 100,
+  "correct_predictions": 100,
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      19,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      25,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "cable_failure",
+    "config_error",
+    "emi_interference",
+    "thermal_stress"
+  ],
+  "classification_report": {
+    "cable_failure": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "config_error": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    },
+    "emi_interference": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "thermal_stress": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 100.0
+    }
+  },
+  "confidence_stats": {
+    "mean": 0.7116878682465058,
+    "std": 0.09661554348086066
+  },
+  "timestamp": "2026-02-14T02:04:35.883076"
+}

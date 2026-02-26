@@ -1,0 +1,1843 @@
+[
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 48,
+    "fault_start_time": "2026-02-09T02:19:55.933114",
+    "severity": 0.7406447280585324,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 0,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 37,
+    "fault_start_time": "2026-02-09T01:19:55.942282",
+    "severity": 0.6069608111430165,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 1,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 49,
+    "fault_start_time": "2026-02-09T02:19:55.950259",
+    "severity": 0.7121841403437202,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 2,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "plc-2",
+      "core-switch-1",
+      "edge-switch-a",
+      "firewall-1"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 66,
+    "fault_start_time": "2026-02-09T04:19:55.987302",
+    "severity": 0.7828550071742746,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 3,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 62,
+    "fault_start_time": "2026-02-09T04:19:55.994470",
+    "severity": 0.6052770016720357,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 4,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 69,
+    "fault_start_time": "2026-02-09T04:19:56.001515",
+    "severity": 0.7555511025704802,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 5,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 58,
+    "fault_start_time": "2026-02-09T03:19:56.008498",
+    "severity": 0.6641163458466052,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 6,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "edge-switch-b",
+      "hmi-1",
+      "plc-2",
+      "edge-switch-a"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 63,
+    "fault_start_time": "2026-02-09T04:19:56.043893",
+    "severity": 0.7165007851042177,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 7,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 71,
+    "fault_start_time": "2026-02-09T05:19:56.051873",
+    "severity": 0.7189588590535575,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 8,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 48,
+    "fault_start_time": "2026-02-09T02:19:56.058852",
+    "severity": 0.8282783960938964,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 9,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 36,
+    "fault_start_time": "2026-02-09T01:19:56.066831",
+    "severity": 0.7640763883872137,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 10,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "hmi-1",
+      "core-switch-1",
+      "edge-switch-b",
+      "plc-2"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 42,
+    "fault_start_time": "2026-02-09T02:19:56.102998",
+    "severity": 0.8088048507554915,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 11,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 57,
+    "fault_start_time": "2026-02-09T03:19:56.111975",
+    "severity": 0.7528771124962663,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 12,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 54,
+    "fault_start_time": "2026-02-09T03:19:56.118987",
+    "severity": 0.5753405131165922,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 13,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 67,
+    "fault_start_time": "2026-02-09T04:19:56.125968",
+    "severity": 0.682729070579713,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 14,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 68,
+    "fault_start_time": "2026-02-09T04:19:56.133098",
+    "severity": 0.7472628403939904,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 15,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 38,
+    "fault_start_time": "2026-02-09T01:19:56.141084",
+    "severity": 0.5812681020725733,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 16,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 47,
+    "fault_start_time": "2026-02-09T02:19:56.150200",
+    "severity": 0.7518020923469702,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 17,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 57,
+    "fault_start_time": "2026-02-09T03:19:56.157760",
+    "severity": 0.6389074389565467,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 18,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "core-switch-1",
+      "plc-1",
+      "edge-switch-b",
+      "plc-2",
+      "hmi-1"
+    ],
+    "root_cause_asset": "core-switch-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 41,
+    "fault_start_time": "2026-02-09T02:19:56.194793",
+    "severity": 0.6987725506759495,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 19,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "firewall-1",
+      "plc-2",
+      "edge-switch-b",
+      "hmi-1"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 62,
+    "fault_start_time": "2026-02-09T04:19:56.232548",
+    "severity": 0.6485161385824862,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 20,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 63,
+    "fault_start_time": "2026-02-09T04:19:56.241195",
+    "severity": 0.668858453305974,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 21,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 48,
+    "fault_start_time": "2026-02-09T02:19:56.248175",
+    "severity": 0.743487054755348,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 22,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 70,
+    "fault_start_time": "2026-02-09T05:19:56.256153",
+    "severity": 0.5654385102611458,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 23,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 66,
+    "fault_start_time": "2026-02-09T04:19:56.263132",
+    "severity": 0.6950620096063023,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 24,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 51,
+    "fault_start_time": "2026-02-09T03:19:56.272007",
+    "severity": 0.7020732808097199,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 25,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.279116",
+    "severity": 0.650692082767436,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 26,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "firewall-1",
+      "plc-1",
+      "core-switch-1",
+      "plc-2"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 54,
+    "fault_start_time": "2026-02-09T03:19:56.321583",
+    "severity": 0.5864700133413709,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 27,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 68,
+    "fault_start_time": "2026-02-09T04:19:56.329320",
+    "severity": 0.5065146859653549,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 28,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 36,
+    "fault_start_time": "2026-02-09T01:19:56.337898",
+    "severity": 0.6607468794245593,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 29,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-2",
+      "edge-switch-b",
+      "firewall-1",
+      "hmi-1",
+      "edge-switch-a"
+    ],
+    "root_cause_asset": "plc-2"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:56.373445",
+    "severity": 0.7362211309192308,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 30,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "edge-switch-a",
+      "core-switch-1",
+      "plc-2",
+      "plc-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:56.410318",
+    "severity": 0.8450306704643994,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 31,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "edge-switch-b",
+      "plc-2",
+      "firewall-1",
+      "hmi-1"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 69,
+    "fault_start_time": "2026-02-09T04:19:56.446331",
+    "severity": 0.7347817527758228,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 32,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 40,
+    "fault_start_time": "2026-02-09T02:19:56.453420",
+    "severity": 0.6638099971735519,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 33,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 48,
+    "fault_start_time": "2026-02-09T02:19:56.459844",
+    "severity": 0.7196320453624673,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 34,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 38,
+    "fault_start_time": "2026-02-09T01:19:56.466924",
+    "severity": 0.7866705585405013,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 35,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 58,
+    "fault_start_time": "2026-02-09T03:19:56.475121",
+    "severity": 0.7442470784775497,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 36,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-b",
+      "core-switch-1",
+      "hmi-1",
+      "plc-1",
+      "plc-2"
+    ],
+    "root_cause_asset": "edge-switch-b"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 41,
+    "fault_start_time": "2026-02-09T02:19:56.513473",
+    "severity": 0.7596615182419126,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 37,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 67,
+    "fault_start_time": "2026-02-09T04:19:56.521608",
+    "severity": 0.7609790862448311,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 38,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:56.528786",
+    "severity": 0.5332652428289302,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 39,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 56,
+    "fault_start_time": "2026-02-09T03:19:56.535821",
+    "severity": 0.7275925413340321,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 40,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 51,
+    "fault_start_time": "2026-02-09T03:19:56.543802",
+    "severity": 0.5742987217011059,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 41,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 57,
+    "fault_start_time": "2026-02-09T03:19:56.552383",
+    "severity": 0.5485489981492002,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 42,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 56,
+    "fault_start_time": "2026-02-09T03:19:56.559362",
+    "severity": 0.748860210600546,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 43,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.567313",
+    "severity": 0.5064921813555839,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 44,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 42,
+    "fault_start_time": "2026-02-09T02:19:56.574357",
+    "severity": 0.7402521682251242,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 45,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 69,
+    "fault_start_time": "2026-02-09T04:19:56.582692",
+    "severity": 0.7718228391797846,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 46,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 54,
+    "fault_start_time": "2026-02-09T03:19:56.590666",
+    "severity": 0.8677703209163341,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 47,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 59,
+    "fault_start_time": "2026-02-09T03:19:56.598500",
+    "severity": 0.6859005375763495,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 48,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-2",
+      "plc-1",
+      "edge-switch-b",
+      "core-switch-1",
+      "edge-switch-a"
+    ],
+    "root_cause_asset": "plc-2"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.639807",
+    "severity": 0.8522205774447191,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 49,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 53,
+    "fault_start_time": "2026-02-09T03:19:56.647384",
+    "severity": 0.6223553589755637,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 50,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-2",
+      "firewall-1",
+      "edge-switch-a",
+      "hmi-1",
+      "edge-switch-b"
+    ],
+    "root_cause_asset": "plc-2"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.684188",
+    "severity": 0.7861779669941247,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 51,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 36,
+    "fault_start_time": "2026-02-09T01:19:56.690302",
+    "severity": 0.8689795644993366,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 52,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 42,
+    "fault_start_time": "2026-02-09T02:19:56.715137",
+    "severity": 0.7517979816422361,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 53,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:56.721690",
+    "severity": 0.8513986245901046,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 54,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-b",
+      "core-switch-1",
+      "edge-switch-a",
+      "hmi-1",
+      "firewall-1"
+    ],
+    "root_cause_asset": "edge-switch-b"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 42,
+    "fault_start_time": "2026-02-09T02:19:56.759280",
+    "severity": 0.8069208306193068,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 55,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "core-switch-1",
+      "edge-switch-a",
+      "plc-1",
+      "hmi-1",
+      "plc-2"
+    ],
+    "root_cause_asset": "core-switch-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 52,
+    "fault_start_time": "2026-02-09T03:19:56.796828",
+    "severity": 0.5695208152111653,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 56,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 54,
+    "fault_start_time": "2026-02-09T03:19:56.804555",
+    "severity": 0.6397308330936391,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 57,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "core-switch-1",
+      "edge-switch-a",
+      "plc-2",
+      "plc-1"
+    ],
+    "root_cause_asset": "firewall-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 48,
+    "fault_start_time": "2026-02-09T02:19:56.843836",
+    "severity": 0.733185642592884,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 58,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-1",
+      "edge-switch-b",
+      "core-switch-1",
+      "firewall-1",
+      "hmi-1"
+    ],
+    "root_cause_asset": "plc-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.886229",
+    "severity": 0.814465500720081,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 59,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 36,
+    "fault_start_time": "2026-02-09T01:19:56.894375",
+    "severity": 0.8123914402593196,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 60,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "core-switch-1",
+      "plc-1",
+      "hmi-1",
+      "edge-switch-a"
+    ],
+    "root_cause_asset": "firewall-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 68,
+    "fault_start_time": "2026-02-09T04:19:56.929560",
+    "severity": 0.5609395768917678,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 61,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.936539",
+    "severity": 0.7332873355195708,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 62,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 62,
+    "fault_start_time": "2026-02-09T04:19:56.944666",
+    "severity": 0.833652412928056,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 63,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:56.951645",
+    "severity": 0.8193021275663976,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 64,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 58,
+    "fault_start_time": "2026-02-09T03:19:56.958750",
+    "severity": 0.6045688729103567,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 65,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-a",
+      "firewall-1",
+      "plc-2",
+      "hmi-1",
+      "edge-switch-b"
+    ],
+    "root_cause_asset": "edge-switch-a"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 50,
+    "fault_start_time": "2026-02-09T03:19:56.997270",
+    "severity": 0.5227208274589249,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 66,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 55,
+    "fault_start_time": "2026-02-09T03:19:57.005249",
+    "severity": 0.8569494473059989,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 67,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "core-switch-1",
+      "edge-switch-b",
+      "edge-switch-a",
+      "plc-1",
+      "plc-2"
+    ],
+    "root_cause_asset": "core-switch-1"
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 46,
+    "fault_start_time": "2026-02-09T02:19:57.042767",
+    "severity": 0.6765370857245261,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 68,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "plc-1",
+      "core-switch-1",
+      "edge-switch-a",
+      "plc-2"
+    ],
+    "root_cause_asset": "firewall-1"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 49,
+    "fault_start_time": "2026-02-09T02:19:57.083193",
+    "severity": 0.666915489395228,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 69,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "core-switch-1",
+      "plc-2",
+      "plc-1",
+      "edge-switch-b"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 47,
+    "fault_start_time": "2026-02-09T02:19:57.122405",
+    "severity": 0.6825774207430625,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 70,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-b",
+      "firewall-1",
+      "plc-1",
+      "hmi-1",
+      "core-switch-1"
+    ],
+    "root_cause_asset": "edge-switch-b"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 40,
+    "fault_start_time": "2026-02-09T02:19:57.162403",
+    "severity": 0.7375963750458089,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 71,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "core-switch-1",
+      "edge-switch-a",
+      "firewall-1",
+      "plc-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 67,
+    "fault_start_time": "2026-02-09T04:19:57.204353",
+    "severity": 0.6997132249594032,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 72,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 37,
+    "fault_start_time": "2026-02-09T01:19:57.212331",
+    "severity": 0.8915933781330483,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 73,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "hmi-1",
+      "plc-2",
+      "edge-switch-a",
+      "plc-1"
+    ],
+    "root_cause_asset": "firewall-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 38,
+    "fault_start_time": "2026-02-09T01:19:57.252145",
+    "severity": 0.6875016414539387,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 74,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "core-switch-1",
+      "edge-switch-b",
+      "plc-1",
+      "edge-switch-a",
+      "hmi-1"
+    ],
+    "root_cause_asset": "core-switch-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 62,
+    "fault_start_time": "2026-02-09T04:19:57.296133",
+    "severity": 0.652839520708431,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 75,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 71,
+    "fault_start_time": "2026-02-09T05:19:57.304546",
+    "severity": 0.8589888213740784,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 76,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 68,
+    "fault_start_time": "2026-02-09T04:19:57.313525",
+    "severity": 0.6480199443503278,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 77,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 49,
+    "fault_start_time": "2026-02-09T02:19:57.322040",
+    "severity": 0.5407611749549571,
+    "affected_asset": "plc-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 78,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 40,
+    "fault_start_time": "2026-02-09T02:19:57.331012",
+    "severity": 0.815325921999061,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 79,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 38,
+    "fault_start_time": "2026-02-09T01:19:57.338020",
+    "severity": 0.8469303097952597,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 80,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-b",
+      "plc-2",
+      "plc-1",
+      "hmi-1",
+      "firewall-1"
+    ],
+    "root_cause_asset": "edge-switch-b"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 37,
+    "fault_start_time": "2026-02-09T01:19:57.377157",
+    "severity": 0.814050427097904,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 81,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "core-switch-1",
+      "plc-2",
+      "edge-switch-a",
+      "plc-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 54,
+    "fault_start_time": "2026-02-09T03:19:57.419128",
+    "severity": 0.8109782990391596,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 82,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "core-switch-1",
+      "hmi-1",
+      "plc-2",
+      "firewall-1",
+      "plc-1"
+    ],
+    "root_cause_asset": "core-switch-1"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 41,
+    "fault_start_time": "2026-02-09T02:19:57.458606",
+    "severity": 0.8076744129963649,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 83,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 56,
+    "fault_start_time": "2026-02-09T03:19:57.465616",
+    "severity": 0.7663963397081224,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 84,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "plc-1",
+      "edge-switch-a",
+      "edge-switch-b",
+      "core-switch-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 44,
+    "fault_start_time": "2026-02-09T02:19:57.506351",
+    "severity": 0.8369029673389714,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 85,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:57.514485",
+    "severity": 0.6250288039937555,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 86,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "plc-2",
+      "edge-switch-a",
+      "edge-switch-b",
+      "hmi-1"
+    ],
+    "root_cause_asset": "firewall-1"
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 57,
+    "fault_start_time": "2026-02-09T03:19:57.553432",
+    "severity": 0.6896211773248955,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 87,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 43,
+    "fault_start_time": "2026-02-09T02:19:57.561411",
+    "severity": 0.7566017482112528,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 88,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "edge-switch-a",
+      "plc-2",
+      "firewall-1",
+      "plc-1",
+      "edge-switch-b"
+    ],
+    "root_cause_asset": "edge-switch-a"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 39,
+    "fault_start_time": "2026-02-09T01:19:57.600793",
+    "severity": 0.8948573687884118,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 89,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "plc-2",
+      "plc-1",
+      "edge-switch-b",
+      "firewall-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 60,
+    "fault_start_time": "2026-02-09T04:19:57.639516",
+    "severity": 0.7272255823862187,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 90,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 64,
+    "fault_start_time": "2026-02-09T04:19:57.647288",
+    "severity": 0.6311648960388814,
+    "affected_asset": "edge-switch-b",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 91,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 43,
+    "fault_start_time": "2026-02-09T02:19:57.654242",
+    "severity": 0.7842201990883894,
+    "affected_asset": "hmi-1",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 92,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "hmi-1",
+      "edge-switch-b",
+      "plc-2",
+      "core-switch-1",
+      "plc-1"
+    ],
+    "root_cause_asset": "hmi-1"
+  },
+  {
+    "fault_type": "emi_interference",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:57.695606",
+    "severity": 0.7164554887001962,
+    "affected_asset": "edge-switch-a",
+    "affected_metrics": [
+      "crc_errors",
+      "snr",
+      "ber",
+      "packet_loss"
+    ],
+    "scenario_id": 93,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 43,
+    "fault_start_time": "2026-02-09T02:19:57.704102",
+    "severity": 0.6556747784548321,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 94,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 41,
+    "fault_start_time": "2026-02-09T02:19:57.713142",
+    "severity": 0.5778678279609443,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 95,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "cable_failure",
+    "fault_start_idx": 45,
+    "fault_start_time": "2026-02-09T02:19:57.721090",
+    "severity": 0.7313621758855475,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "crc_errors",
+      "packet_loss",
+      "snr",
+      "ber",
+      "latency"
+    ],
+    "scenario_id": 96,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "plc-2",
+      "edge-switch-b",
+      "plc-1",
+      "firewall-1",
+      "hmi-1"
+    ],
+    "root_cause_asset": "plc-2"
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 59,
+    "fault_start_time": "2026-02-09T03:19:57.762696",
+    "severity": 0.5190279339101246,
+    "affected_asset": "plc-2",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 97,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "thermal_stress",
+    "fault_start_idx": 41,
+    "fault_start_time": "2026-02-09T02:19:57.770675",
+    "severity": 0.6078481804037972,
+    "affected_asset": "core-switch-1",
+    "affected_metrics": [
+      "temperature",
+      "ber",
+      "snr",
+      "crc_errors"
+    ],
+    "scenario_id": 98,
+    "num_time_points": 120
+  },
+  {
+    "fault_type": "config_error",
+    "fault_start_idx": 51,
+    "fault_start_time": "2026-02-09T03:19:57.778666",
+    "severity": 0.7530973257335406,
+    "affected_asset": "firewall-1",
+    "affected_metrics": [
+      "packet_loss",
+      "latency",
+      "retransmissions",
+      "jitter"
+    ],
+    "scenario_id": 99,
+    "num_time_points": 120,
+    "num_assets": 5,
+    "all_assets": [
+      "firewall-1",
+      "plc-2",
+      "core-switch-1",
+      "hmi-1",
+      "plc-1"
+    ],
+    "root_cause_asset": "firewall-1"
+  }
+]

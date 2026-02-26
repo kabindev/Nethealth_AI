@@ -1,0 +1,107 @@
+[
+    {
+        "id": "core-sw",
+        "name": "Core Switch (L3)",
+        "type": "switch",
+        "role": "core",
+        "parent_id": null,
+        "metadata": {
+            "cable_length_m": 75.0,
+            "ambient_temp_c": 28.0,
+            "age_months": 48,
+            "cable_gauge": "22AWG",
+            "heat_dissipation_factor": 0.7
+        }
+    },
+    {
+        "id": "dist-sw",
+        "name": "Distribution Switch",
+        "type": "switch",
+        "role": "distribution",
+        "parent_id": "core-sw",
+        "metadata": {
+            "cable_length_m": 50.0,
+            "ambient_temp_c": 26.0,
+            "age_months": 36,
+            "cable_gauge": "24AWG",
+            "heat_dissipation_factor": 0.75
+        }
+    },
+    {
+        "id": "edge-sw-a",
+        "name": "Edge Switch A",
+        "type": "switch",
+        "role": "edge",
+        "parent_id": "dist-sw",
+        "metadata": {
+            "cable_length_m": 30.0,
+            "ambient_temp_c": 24.0,
+            "age_months": 24,
+            "cable_gauge": "24AWG",
+            "heat_dissipation_factor": 0.85
+        }
+    },
+    {
+        "id": "edge-sw-b",
+        "name": "Edge Switch B",
+        "type": "switch",
+        "role": "edge",
+        "parent_id": "dist-sw",
+        "metadata": {
+            "cable_length_m": 35.0,
+            "ambient_temp_c": 25.0,
+            "age_months": 18,
+            "cable_gauge": "24AWG",
+            "heat_dissipation_factor": 0.8
+        }
+    },
+    {
+        "id": "plc-1",
+        "name": "Assembly PLC 1",
+        "type": "plc",
+        "role": "controller",
+        "parent_id": "edge-sw-a",
+        "metadata": {
+            "cable_length_m": 20.0,
+            "ambient_temp_c": 30.0,
+            "age_months": 60,
+            "cable_gauge": "24AWG",
+            "heat_dissipation_factor": 0.6
+        }
+    },
+    {
+        "id": "plc-2",
+        "name": "Assembly PLC 2",
+        "type": "plc",
+        "role": "controller",
+        "parent_id": "edge-sw-a",
+        "metadata": {
+            "cable_length_m": 25.0,
+            "ambient_temp_c": 32.0,
+            "age_months": 72,
+            "cable_gauge": "26AWG",
+            "heat_dissipation_factor": 0.55
+        }
+    },
+    {
+        "id": "hmi-1",
+        "name": "Line HMI",
+        "type": "hmi",
+        "role": "interface",
+        "parent_id": "edge-sw-b"
+    },
+    {
+        "id": "firewall-1",
+        "name": "Perimeter Firewall",
+        "type": "firewall",
+        "role": "security",
+        "parent_id": "core-sw"
+    },
+    {
+        "id": "server-1",
+        "name": "App Server",
+        "type": "server",
+        "role": "application",
+        "parent_id": "core-sw"
+    }
+]

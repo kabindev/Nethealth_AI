@@ -1,0 +1,7 @@
+# Additional Requirements for Dashboard Integration
+
+# Auto-refresh for real-time updates
+streamlit-autorefresh>=0.0.1
+
+# Additional Streamlit components
+streamlit-extras>=0.3.0

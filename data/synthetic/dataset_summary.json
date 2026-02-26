@@ -1,0 +1,22 @@
+{
+  "total_scenarios": 100,
+  "total_metric_records": 288000,
+  "unique_assets": 7,
+  "unique_metrics": 10,
+  "time_range": {
+    "start": "2026-02-08T22:19:55.933114",
+    "end": "2026-02-13T21:19:57.778666"
+  },
+  "fault_type_distribution": {
+    "cable_failure": 26,
+    "emi_interference": 25,
+    "config_error": 19,
+    "thermal_stress": 30
+  },
+  "severity_stats": {
+    "mean": 0.7116878682465058,
+    "std": 0.09661554348086066,
+    "min": 0.5064921813555839,
+    "max": 0.8948573687884118
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "core-sw": {
+    "device_id": "core-sw",
+    "config_hash": "7949db8bd9fc5273aaf770850949615739291499f44501b548e2b97e03df41e5",
+    "config_data": {
+      "firmware": "15.2.4",
+      "acl_count": 12,
+      "vlan_ids": [
+        1,
+        10,
+        20,
+        30
+      ],
+      "spanning_tree": "RSTP",
+      "ntp_server": "192.168.1.1"
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "dist-sw": {
+    "device_id": "dist-sw",
+    "config_hash": "4d03d74442f2ca6457bb52a27333633e0497a214bab860082707d3d276f81a80",
+    "config_data": {
+      "firmware": "15.1.2",
+      "acl_count": 8,
+      "vlan_ids": [
+        1,
+        10,
+        20
+      ],
+      "spanning_tree": "RSTP",
+      "ntp_server": "192.168.1.1"
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "edge-sw-a": {
+    "device_id": "edge-sw-a",
+    "config_hash": "0372c37414c361b8586fa64a46811340f14bdd936ea37ba1b47f4e40b2dbe1c5",
+    "config_data": {
+      "firmware": "12.2.6",
+      "acl_count": 5,
+      "vlan_ids": [
+        1,
+        10
+      ],
+      "spanning_tree": "STP",
+      "ntp_server": "192.168.1.1"
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "edge-sw-b": {
+    "device_id": "edge-sw-b",
+    "config_hash": "b7233a1d6bf20897a52119db7a772212f068be6fc90109ba2915d9263a0b5ed8",
+    "config_data": {
+      "firmware": "12.2.6",
+      "acl_count": 5,
+      "vlan_ids": [
+        1,
+        20
+      ],
+      "spanning_tree": "STP",
+      "ntp_server": "192.168.1.1"
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "plc-1": {
+    "device_id": "plc-1",
+    "config_hash": "0b66d21237348fdde1ef9085aa5848bef4bb416a03ac33f2245f9ac4a6613fdc",
+    "config_data": {
+      "firmware": "V3.1.0",
+      "protocol": "Modbus-TCP",
+      "port": 502,
+      "polling_rate_ms": 100
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "plc-2": {
+    "device_id": "plc-2",
+    "config_hash": "0b66d21237348fdde1ef9085aa5848bef4bb416a03ac33f2245f9ac4a6613fdc",
+    "config_data": {
+      "firmware": "V3.1.0",
+      "protocol": "Modbus-TCP",
+      "port": 502,
+      "polling_rate_ms": 100
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "hmi-1": {
+    "device_id": "hmi-1",
+    "config_hash": "f2d13de1bf14098457df28efd5b33cb82d2e41c9aebaa7371800d100cd37e577",
+    "config_data": {
+      "firmware": "HMI-2.4",
+      "protocol": "OPC-UA",
+      "port": 4840,
+      "auth": "certificate"
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "firewall-1": {
+    "device_id": "firewall-1",
+    "config_hash": "57ea491c0333c2abe06eb09eef80ddbb77673e6074c2ee6cf3db6b0866062235",
+    "config_data": {
+      "firmware": "FortiOS-7.2",
+      "rule_count": 45,
+      "ips_enabled": true,
+      "vpn_tunnels": 2
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  },
+  "server-1": {
+    "device_id": "server-1",
+    "config_hash": "05807d8ec843e1363fbee97b79ef16ce7a92c9370f60f61857331b5600d2d743",
+    "config_data": {
+      "os": "Ubuntu-22.04",
+      "services": [
+        "nginx",
+        "postgresql",
+        "redis"
+      ],
+      "open_ports": [
+        80,
+        443,
+        5432
+      ]
+    },
+    "timestamp": "2026-02-20T12:45:04.101013",
+    "version": 1
+  }
+}

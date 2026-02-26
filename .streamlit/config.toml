@@ -1,0 +1,15 @@
+[server]
+# Prevents Streamlit from trying to watch PyTorch's internal module paths,
+# which causes the torch._classes RuntimeError in the console.
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#00c0f2"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1a1f2e"
+textColor = "#E0E0E0"
+font = "sans serif"

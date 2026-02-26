@@ -1,0 +1,322 @@
+[
+  {
+    "id": "gateway-1",
+    "name": "router-1",
+    "type": "router",
+    "role": "gateway",
+    "parent_id": null,
+    "metadata": {
+      "ip_address": "172.21.18.1",
+      "hostname": "172.21.18.1",
+      "cable_length_m": 19.6,
+      "ambient_temp_c": 35.5,
+      "age_months": 59,
+      "cable_gauge": "24AWG",
+      "heat_dissipation_factor": 0.77
+    }
+  },
+  {
+    "id": "device-2",
+    "name": "Amritaserver01.av.amrita.edu",
+    "type": "server",
+    "role": "application",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.2",
+      "hostname": "Amritaserver01.av.amrita.edu",
+      "cable_length_m": 7.0,
+      "ambient_temp_c": 21.3,
+      "age_months": 10,
+      "cable_gauge": "22AWG",
+      "heat_dissipation_factor": 0.91
+    }
+  },
+  {
+    "id": "device-3",
+    "name": "Amritaserver02.av.amrita.edu",
+    "type": "server",
+    "role": "application",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.3",
+      "hostname": "Amritaserver02.av.amrita.edu",
+      "cable_length_m": 3.9,
+      "ambient_temp_c": 26.7,
+      "age_months": 28,
+      "cable_gauge": "22AWG",
+      "heat_dissipation_factor": 0.96
+    }
+  },
+  {
+    "id": "device-4",
+    "name": "Amritaserver03.av.students.amrita.edu",
+    "type": "server",
+    "role": "application",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.4",
+      "hostname": "Amritaserver03.av.students.amrita.edu",
+      "cable_length_m": 4.3,
+      "ambient_temp_c": 23.3,
+      "age_months": 21,
+      "cable_gauge": "22AWG",
+      "heat_dissipation_factor": 0.9
+    }
+  },
+  {
+    "id": "device-5",
+    "name": "Amritaserver04.av.amrita.edu",
+    "type": "server",
+    "role": "application",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.5",
+      "hostname": "Amritaserver04.av.amrita.edu",
+      "cable_length_m": 2.4,
+      "ambient_temp_c": 20.7,
+      "age_months": 15,
+      "cable_gauge": "22AWG",
+      "heat_dissipation_factor": 0.98
+    }
+  },
+  {
+    "id": "device-6",
+    "name": "AVK7SERVER.av.amrita.edu",
+    "type": "server",
+    "role": "application",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.9",
+      "hostname": "AVK7SERVER.av.amrita.edu",
+      "cable_length_m": 4.2,
+      "ambient_temp_c": 28.0,
+      "age_months": 16,
+      "cable_gauge": "22AWG",
+      "heat_dissipation_factor": 0.95
+    }
+  },
+  {
+    "id": "device-7",
+    "name": "OracleXE.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.10",
+      "hostname": "OracleXE.av.amrita.edu",
+      "cable_length_m": 6.8,
+      "ambient_temp_c": 24.6,
+      "age_months": 61,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.76
+    }
+  },
+  {
+    "id": "device-8",
+    "name": "pc-8",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.11",
+      "hostname": "172.21.18.11",
+      "cable_length_m": 4.7,
+      "ambient_temp_c": 27.9,
+      "age_months": 72,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.77
+    }
+  },
+  {
+    "id": "device-9",
+    "name": "MatLab.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.13",
+      "hostname": "MatLab.av.amrita.edu",
+      "cable_length_m": 5.4,
+      "ambient_temp_c": 25.8,
+      "age_months": 18,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.81
+    }
+  },
+  {
+    "id": "device-10",
+    "name": "AutoDesk.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.14",
+      "hostname": "AutoDesk.av.amrita.edu",
+      "cable_length_m": 3.8,
+      "ambient_temp_c": 24.7,
+      "age_months": 42,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.78
+    }
+  },
+  {
+    "id": "device-11",
+    "name": "FTP.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.15",
+      "hostname": "FTP.av.amrita.edu",
+      "cable_length_m": 5.3,
+      "ambient_temp_c": 24.5,
+      "age_months": 12,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.89
+    }
+  },
+  {
+    "id": "device-12",
+    "name": "dspace.av.amrita.edu.dspace",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.16",
+      "hostname": "dspace.av.amrita.edu.dspace",
+      "cable_length_m": 5.1,
+      "ambient_temp_c": 22.9,
+      "age_months": 67,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.83
+    }
+  },
+  {
+    "id": "device-13",
+    "name": "mrtg.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.17",
+      "hostname": "mrtg.av.amrita.edu",
+      "cable_length_m": 7.1,
+      "ambient_temp_c": 26.4,
+      "age_months": 55,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.81
+    }
+  },
+  {
+    "id": "device-14",
+    "name": "software.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.18",
+      "hostname": "software.av.amrita.edu",
+      "cable_length_m": 6.2,
+      "ambient_temp_c": 25.6,
+      "age_months": 43,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.88
+    }
+  },
+  {
+    "id": "device-15",
+    "name": "analytics.av.amrita.edu",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.20",
+      "hostname": "analytics.av.amrita.edu",
+      "cable_length_m": 3.2,
+      "ambient_temp_c": 23.0,
+      "age_months": 27,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.88
+    }
+  },
+  {
+    "id": "device-16",
+    "name": "hpc.av.amrita.edu",
+    "type": "printer",
+    "role": "peripheral",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.101",
+      "hostname": "hpc.av.amrita.edu",
+      "cable_length_m": 3.9,
+      "ambient_temp_c": 31.2,
+      "age_months": 37,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.7
+    }
+  },
+  {
+    "id": "device-17",
+    "name": "pc-17",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.102",
+      "hostname": "172.21.18.102",
+      "cable_length_m": 3.1,
+      "ambient_temp_c": 26.0,
+      "age_months": 16,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.86
+    }
+  },
+  {
+    "id": "device-18",
+    "name": "pc-18",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.104",
+      "hostname": "172.21.18.104",
+      "cable_length_m": 3.3,
+      "ambient_temp_c": 24.6,
+      "age_months": 23,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.82
+    }
+  },
+  {
+    "id": "device-19",
+    "name": "pc-19",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.149",
+      "hostname": "172.21.18.149",
+      "cable_length_m": 8.8,
+      "ambient_temp_c": 24.0,
+      "age_months": 43,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.78
+    }
+  },
+  {
+    "id": "device-20",
+    "name": "pc-20",
+    "type": "pc",
+    "role": "endpoint",
+    "parent_id": "gateway-1",
+    "metadata": {
+      "ip_address": "172.21.18.200",
+      "hostname": "172.21.18.200",
+      "cable_length_m": 3.1,
+      "ambient_temp_c": 23.0,
+      "age_months": 21,
+      "cable_gauge": "26AWG",
+      "heat_dissipation_factor": 0.81
+    }
+  }
+]

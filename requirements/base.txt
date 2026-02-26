@@ -1,0 +1,13 @@
+pandas
+numpy
+pydantic
+scikit-learn
+networkx
+streamlit>=1.32.0
+pytest
+jupyter
+matplotlib
+plotly
+graphviz
+statsmodels
+pgmpy
